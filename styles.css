@@ -65,3 +65,23 @@ body
     background-color: #121212;
     border-radius: 10px;
 }
+
+.lib img
+{
+    width: 1.4rem;
+    filter: invert(1);
+}
+
+.lib .nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lib .subNav
+{
+    display: flex;
+    gap: 1.2rem;
+    padding: 0.3rem 0.5rem;
+}
